@@ -25,7 +25,36 @@ body {
 }
 
 #area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens, #area-lateral {
+    background: orange;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
     background: white;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
 }
 
 /*
@@ -54,6 +83,14 @@ h1 {
     font: 2.5em;
 }
 
+h2 {
+    color: #f7b600;
+}
+
 .branco {
     color: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
 }
